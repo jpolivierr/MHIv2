@@ -1,6 +1,7 @@
 <?php
     
     require_once dirname(__DIR__)."/function.php";
+    require_once dirname(__DIR__)."/system.php";
     // require_once dirname(__DIR__)."/webApp/props/bootStrap.php";
 
     addHeader("header", "MHI");
