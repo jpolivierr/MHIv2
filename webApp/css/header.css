@@ -1,0 +1,25 @@
+
+/* 
+=======================================================
+START: HEADER
+=======================================================
+*/
+.standard-header{
+    padding: 1rem;
+}
+
+.standard-header article{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;
+    justify-content: space-between;
+}
+
+.standard-header article nav ul{
+    display: flex;
+    column-gap: 2rem;
+}
+/* 
+=======================================================
+END: HEADER
+=======================================================
+*/

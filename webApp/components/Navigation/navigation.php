@@ -5,7 +5,7 @@
         return array(
         "logo" => "Media/images/logo.png",
         "section" => array(
-                            "class"=>"",
+                            "class"=>"standard-header",
                             "custom"=>""
                            ),
         "container" => array(
@@ -22,7 +22,7 @@
                  class="<?php echo $props["section"]["class"] ?>"
                  <?php echo $props["section"]["class"] ?>
                  >
-            <div 
+            <article 
                   class="<?php echo $props["container"]["class"] ?>"
                   <?php echo $props["container"]["class"] ?>
                   >
@@ -35,7 +35,7 @@
                 <section>
                     <?php mount("Button","button",["Donate","/donate","main-btn",null]) ?>
                 </section>
-            </div>
+            </article>
         </header> 
 
 <?php echo ob_get_clean(); })(mapProps($props)); ?> 
