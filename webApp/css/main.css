@@ -1,8 +1,84 @@
 /* 
 =======================================================
+START: Button
+=======================================================
+*/
+button{
+    padding: .7rem 1rem;
+    border: none;
+    background-color: var(--light-silver);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: inherit;
+}
+
+.main-btn{
+    background-color: var(--main-color);
+    color: white;
+    font-weight: 600;
+    border-radius: 100px;
+}
+
+/* 
+=======================================================
+END:
+=======================================================
+*/
+/* 
+=======================================================
+START: Active Button Style
+=======================================================
+*/
+.av-active{
+    border: 2px solid var(--secondary-color) !important;
+    color: var(--secondary-color);
+    border-radius: 100px;
+}
+/* 
+=======================================================
+END:
+=======================================================
+*//* 
+=======================================================
 START: GLOBAL
 =======================================================
 */
+
+:root{
+
+    --w-background: white;
+    --w-padding: 1rem 1rem;
+  
+    --border-sharp : 0px;
+    --border-soft : 5px;
+    --border : 8px;
+
+    --padding-input: 1.3rem .8rem;
+
+    --input-background: #f1f3f4;
+    
+    --shadow : rgba(156, 156, 156, 0.2) 0px 7px 79px -10px;
+    --shadow-hard: 0px 0px 79px 20px rgba(179, 182, 185, 0.356);
+    --shadow-soft : rgba(100, 100, 111, 0.2) 0px 7px 18px -10px;
+  
+    --light-blue: #f8faff;
+    --text-color: #142149;
+    --text-color-light: #525666;
+    --text-color-error: #ff4e4e;
+    --dark-text: #566075;
+    --light-silver: #ebecee;
+  
+    --main-color : #18cf58;
+    --secondary-color: #2c2eff;
+    --error-color: #ff000014;
+
+    --modal-bk-color: #142149bf;
+  
+    --container-width: 90%;
+
+    --animation-second: .2s;
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -16,7 +92,16 @@ body{
 
 .container{
     width: 80%;
+    max-width: 953px;
     margin: auto;
+}
+
+.border-bottom{
+    border-bottom: 1px solid var(--light-silver);
+}
+
+img{
+    width: 100%;
 }
 /* 
 =======================================================
@@ -25,26 +110,99 @@ END: GLOBAL
 */
 /* 
 =======================================================
-START: HEADER
+START: AV HEADER V1
 =======================================================
 */
-.standard-header{
-    padding: 1rem;
+.av-header-v1{
+    padding: 2rem 0rem;
 }
 
-.standard-header article{
+.av-header-v1 article{
     display: grid;
     grid-template-columns: max-content max-content max-content;
     justify-content: space-between;
+    align-items: center;
 }
 
-.standard-header article nav ul{
+.av-header-v1 article nav ul{
     display: flex;
-    column-gap: 2rem;
+    column-gap: .1rem;
 }
+
+.av-header-v1 article nav ul li{
+    border: 2px solid transparent;
+    padding: .3rem 1rem;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.av-header-v1 menu{
+    display: none;
+    width: 30px;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
+    position: relative;
+    cursor: pointer;
+}
+
+.av-header-v1 menu div{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 10px;
+  
+}
+
 /* 
 =======================================================
-END: HEADER
+END:
+=======================================================
+*//* 
+=======================================================
+START: RESPONSIVE
+=======================================================
+*/
+
+@media (min-width: 1600px){
+   
+}
+
+@media (max-width: 900px){
+    .container{
+        width: 95%;
+    }
+}
+
+@media (max-width: 750px){
+    .av-header-v1{
+        padding: 1.1rem 0rem;
+    }
+
+    .av-header-v1 figure{
+        max-width: 90px;
+    }
+
+    .av-header-v1 article{
+        grid-template-columns: max-content max-content;
+    }
+    .av-header-v1 article nav{
+        display: none;
+    }
+
+    .av-header-v1 article section{
+        display: none;
+    }
+
+    .av-header-v1 article menu{
+        display: flex;
+    }
+}
+
+/* 
+=======================================================
+END
 =======================================================
 *//* 
 =======================================================

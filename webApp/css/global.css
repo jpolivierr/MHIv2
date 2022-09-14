@@ -3,6 +3,42 @@
 START: GLOBAL
 =======================================================
 */
+
+:root{
+
+    --w-background: white;
+    --w-padding: 1rem 1rem;
+  
+    --border-sharp : 0px;
+    --border-soft : 5px;
+    --border : 8px;
+
+    --padding-input: 1.3rem .8rem;
+
+    --input-background: #f1f3f4;
+    
+    --shadow : rgba(156, 156, 156, 0.2) 0px 7px 79px -10px;
+    --shadow-hard: 0px 0px 79px 20px rgba(179, 182, 185, 0.356);
+    --shadow-soft : rgba(100, 100, 111, 0.2) 0px 7px 18px -10px;
+  
+    --light-blue: #f8faff;
+    --text-color: #142149;
+    --text-color-light: #525666;
+    --text-color-error: #ff4e4e;
+    --dark-text: #566075;
+    --light-silver: #ebecee;
+  
+    --main-color : #18cf58;
+    --secondary-color: #2c2eff;
+    --error-color: #ff000014;
+
+    --modal-bk-color: #142149bf;
+  
+    --container-width: 90%;
+
+    --animation-second: .2s;
+  }
+
 *{
     padding: 0;
     margin: 0;
@@ -16,7 +52,16 @@ body{
 
 .container{
     width: 80%;
+    max-width: 953px;
     margin: auto;
+}
+
+.border-bottom{
+    border-bottom: 1px solid var(--light-silver);
+}
+
+img{
+    width: 100%;
 }
 /* 
 =======================================================

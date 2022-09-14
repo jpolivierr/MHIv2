@@ -2,22 +2,22 @@
 if(!function_exists("navLinks")){
     function navLinks(){
         return array(
-                        "home" => array(
+                        "Home" => array(
                             "link" => "/",
-                            "class" => "active",
+                            "class" => "av-active",
                             "custom" => ""
                                 ),
-                        "about" => array(
+                        "About MHI" => array(
                             "link" => "/about",
                             "class" => "",
                             "custom" => ""
                         ),
-                        "Our Progress" => array(
-                            "link" => "/progress",
+                        "Volunteer" => array(
+                            "link" => "/volunteer",
                             "class" => "",
                             "custom" => ""
                         ),
-                        "contact" => array(
+                        "Contact Us" => array(
                             "link" => "/contact",
                             "class" => "",
                             "custom" => ""

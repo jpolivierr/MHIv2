@@ -1,0 +1,46 @@
+/* 
+=======================================================
+START: RESPONSIVE
+=======================================================
+*/
+
+@media (min-width: 1600px){
+   
+}
+
+@media (max-width: 900px){
+    .container{
+        width: 95%;
+    }
+}
+
+@media (max-width: 750px){
+    .av-header-v1{
+        padding: 1.1rem 0rem;
+    }
+
+    .av-header-v1 figure{
+        max-width: 90px;
+    }
+
+    .av-header-v1 article{
+        grid-template-columns: max-content max-content;
+    }
+    .av-header-v1 article nav{
+        display: none;
+    }
+
+    .av-header-v1 article section{
+        display: none;
+    }
+
+    .av-header-v1 article menu{
+        display: flex;
+    }
+}
+
+/* 
+=======================================================
+END
+=======================================================
+*/

@@ -5,7 +5,7 @@
         return array(
         "logo" => "Media/images/logo.png",
         "section" => array(
-                            "class"=>"standard-header",
+                            "class"=>"av-header-v1 border-bottom",
                             "custom"=>""
                            ),
         "container" => array(
@@ -35,6 +35,11 @@
                 <section>
                     <?php mount("Button","button",["Donate","/donate","main-btn",null]) ?>
                 </section>
+                <menu>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </menu>
             </article>
         </header> 
 
