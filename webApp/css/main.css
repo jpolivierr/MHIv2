@@ -4,7 +4,7 @@ START: Button
 =======================================================
 */
 button{
-    padding: .5rem 1rem;
+    padding: .8rem 1.5rem;
     border: none;
     background-color: var(--light-silver);
     border-radius: 5px;
@@ -125,7 +125,7 @@ body{
 
 .container{
     width: 80%;
-    max-width: 953px;
+    max-width: 1053px;
     margin: auto;
 }
 
@@ -248,7 +248,7 @@ START: RESPONSIVE
     .av-article-v1 div figure{
         grid-column-start: 1;
         grid-row-start: 1;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
     }
 
     .columns-reverse div{
@@ -288,6 +288,7 @@ END
     align-items: center;
     position: relative;
     padding: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .sp div figure img{
@@ -298,7 +299,7 @@ END
 .sp div figure img,
 .sp div figure::before,
 .sp div figure::after{
-    box-shadow: 0px 15px 40px -10px #3b476c7d
+    box-shadow: 0px 15px 40px -10px #3b476c46
 }
 
 .sp div figure::before{
@@ -306,8 +307,8 @@ END
     content: "";
     top: 0;
     left: 0;
-    width: 100px;
-    height: 100px;
+    width: 25%;
+    height: 35%;
     background: var(--tertiary-color);
     z-index: -1;
 }
@@ -317,9 +318,10 @@ END
     content: "";
     bottom: 0;
     right: 0;
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 60%;
     background: var(--secondary-color);
+    /* border: 15px solid var(--secondary-color); */
     z-index: -1;
 }/* 
 =======================================================

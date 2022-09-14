@@ -8,7 +8,7 @@
                     <?php mount("Button","button",["Donate","/donate","main-btn",null])?>
                 </section>
                 <figure >
-                   <img src="Media/images/students.png" ?>
+                   <img src="Media/images/mhikid.png" ?>
                 </figure>
         </div>
     </article>

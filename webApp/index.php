@@ -9,6 +9,7 @@
      mount("Navigation","navigation", "navContent");
      mount("Article","empower", null);
      mount("Article","mission", null);
+     mount("Article","pledge", null);
 
 
 
