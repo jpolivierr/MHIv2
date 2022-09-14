@@ -8,13 +8,13 @@ START: RESPONSIVE
    
 }
 
-@media (max-width: 900px){
+@media (max-width: 950px){
     .container{
         width: 95%;
     }
 }
 
-@media (max-width: 750px){
+@media (max-width: 897px){
     .av-header-v1{
         padding: 1.1rem 0rem;
     }
@@ -36,6 +36,24 @@ START: RESPONSIVE
 
     .av-header-v1 article menu{
         display: flex;
+    }
+
+    /* articles */
+
+    .av-article-v1 {
+        padding: 3rem 0rem;
+    }
+    .av-article-v1 div{
+        grid-template-columns: 1fr;
+    }
+
+    .av-article-v1 div figure{
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    .columns-reverse div{
+        grid-template-columns: 1fr;
     }
 }
 

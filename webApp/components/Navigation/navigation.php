@@ -20,11 +20,11 @@
 <?php (function($props) { ob_start() ;?>
         <header 
                  class="<?php echo $props["section"]["class"] ?>"
-                 <?php echo $props["section"]["class"] ?>
+                 <?php echo $props["section"]["custom"] ?>
                  >
             <article 
                   class="<?php echo $props["container"]["class"] ?>"
-                  <?php echo $props["container"]["class"] ?>
+                  <?php echo $props["container"]["custom"] ?>
                   >
                 <figure>
                     <img src="<?php echo $props["logo"] ?>" ?>

@@ -5,6 +5,7 @@ START: UTIL
 */
  li{
     list-style: none;
+    padding: .3rem 1rem;
  }
 
  a{

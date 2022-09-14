@@ -20,8 +20,6 @@ function mount(string $folder, string $file, $props){
      }
 }
 
-
-
 function addHeader(string $file, string $title){
         require_once dirname(__FILE__)."/webApp/$file.php";
         siteHeader($title);

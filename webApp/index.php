@@ -7,7 +7,8 @@
     addHeader("header", "MHI");
 
      mount("Navigation","navigation", "navContent");
-    //  mount("Button","button",["Donate","/donate","main-btn",null])
+     mount("Article","standard", "empowerArticle");
+     mount("Article","standard", "missionArticle");
 
 
 
