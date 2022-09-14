@@ -12,6 +12,11 @@ if(!function_exists("navLinks")){
                             "class" => "",
                             "custom" => ""
                         ),
+                        "FAQ" => array(
+                            "link" => "/faq",
+                            "class" => "",
+                            "custom" => ""
+                        ),
                         "Volunteer" => array(
                             "link" => "/volunteer",
                             "class" => "",

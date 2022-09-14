@@ -1,7 +1,6 @@
 .sp div section h2{
     position: relative;
     padding-bottom: .5rem;
-    max-width: 390px;
 }
 
 .sp div section h2::before{
@@ -12,6 +11,11 @@
     width: 40px;
     height: 5px;
     background: var(--tertiary-color);
+}
+
+.center-content div section h2::before{
+    right: 0;
+    margin: auto;
 }
 
 .sp div figure{

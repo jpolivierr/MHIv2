@@ -47,24 +47,48 @@ START: Article
     padding: 5rem 0rem;
 }
 
-.av-article-v1 div{
+.av-article-v1 div:nth-child(1){
     display: grid;
     grid-template-columns: .8fr 1fr;
     align-items: center;
     column-gap: 2rem;
 }
 
-.columns-reverse div {
+.columns-reverse div:nth-child(1) {
     grid-template-columns: 1fr .8fr ;
 }
 
-.columns-reverse div figure{
+.columns-reverse div:nth-child(1) figure{
     grid-column-start: 1;
     grid-row-start: 1;
 }
 
-.columns-reverse div section{
+.columns-reverse div:nth-child(1) section{
     padding-left: 1rem;
+}
+/* 
+=======================================================
+END: 
+=======================================================
+*/
+/* 
+=======================================================
+START: COLUMNS
+=======================================================
+*/
+.center-content div:nth-child(1){
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content div:nth-child(1) section{
+     text-align: center;
+     display: flex;
+     flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
 }
 /* 
 =======================================================
@@ -135,6 +159,17 @@ body{
 
 img{
     width: 100%;
+}
+
+.social{
+    display: flex;
+    column-gap: 2rem;
+    margin-bottom: 1rem
+}
+
+.social i{
+    color: var(--secondary-color);
+    font-size: 2.3rem;
 }
 /* 
 =======================================================
@@ -241,21 +276,21 @@ START: RESPONSIVE
     .av-article-v1 {
         padding: 3rem 0rem;
     }
-    .av-article-v1 div{
+    .av-article-v1 div:nth-child(1){
         grid-template-columns: 1fr;
     }
 
-    .av-article-v1 div figure{
+    .av-article-v1 div:nth-child(1) figure{
         grid-column-start: 1;
         grid-row-start: 1;
         margin-bottom: 3rem;
     }
 
-    .columns-reverse div{
+    .columns-reverse div:nth-child(1){
         grid-template-columns: 1fr;
     }
 
-    .columns-reverse div section{
+    .columns-reverse div:nth-child(1) section{
         padding-left: 0rem;
     }
 
@@ -269,7 +304,6 @@ END
 */.sp div section h2{
     position: relative;
     padding-bottom: .5rem;
-    max-width: 390px;
 }
 
 .sp div section h2::before{
@@ -280,6 +314,11 @@ END
     width: 40px;
     height: 5px;
     background: var(--tertiary-color);
+}
+
+.center-content div section h2::before{
+    right: 0;
+    margin: auto;
 }
 
 .sp div figure{
@@ -342,7 +381,7 @@ START: UTIL
  h2{
    font-size: 1.9rem;
    margin-bottom: 1rem;
-
+   max-width: 400px;
  }
 
 
@@ -357,6 +396,7 @@ START: UTIL
    color: var(--dark-text);
    margin-bottom: 1rem;
    line-height: 1.7;
+   max-width: 700px;
  }
 
 /* 

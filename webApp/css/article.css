@@ -7,24 +7,48 @@ START: Article
     padding: 5rem 0rem;
 }
 
-.av-article-v1 div{
+.av-article-v1 div:nth-child(1){
     display: grid;
     grid-template-columns: .8fr 1fr;
     align-items: center;
     column-gap: 2rem;
 }
 
-.columns-reverse div {
+.columns-reverse div:nth-child(1) {
     grid-template-columns: 1fr .8fr ;
 }
 
-.columns-reverse div figure{
+.columns-reverse div:nth-child(1) figure{
     grid-column-start: 1;
     grid-row-start: 1;
 }
 
-.columns-reverse div section{
+.columns-reverse div:nth-child(1) section{
     padding-left: 1rem;
+}
+/* 
+=======================================================
+END: 
+=======================================================
+*/
+/* 
+=======================================================
+START: COLUMNS
+=======================================================
+*/
+.center-content div:nth-child(1){
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-content div:nth-child(1) section{
+     text-align: center;
+     display: flex;
+     flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
 }
 /* 
 =======================================================

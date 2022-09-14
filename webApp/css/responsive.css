@@ -43,21 +43,21 @@ START: RESPONSIVE
     .av-article-v1 {
         padding: 3rem 0rem;
     }
-    .av-article-v1 div{
+    .av-article-v1 div:nth-child(1){
         grid-template-columns: 1fr;
     }
 
-    .av-article-v1 div figure{
+    .av-article-v1 div:nth-child(1) figure{
         grid-column-start: 1;
         grid-row-start: 1;
         margin-bottom: 3rem;
     }
 
-    .columns-reverse div{
+    .columns-reverse div:nth-child(1){
         grid-template-columns: 1fr;
     }
 
-    .columns-reverse div section{
+    .columns-reverse div:nth-child(1) section{
         padding-left: 0rem;
     }
 

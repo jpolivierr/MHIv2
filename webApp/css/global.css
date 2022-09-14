@@ -64,6 +64,17 @@ body{
 img{
     width: 100%;
 }
+
+.social{
+    display: flex;
+    column-gap: 2rem;
+    margin-bottom: 1rem
+}
+
+.social i{
+    color: var(--secondary-color);
+    font-size: 2.3rem;
+}
 /* 
 =======================================================
 END: GLOBAL
