@@ -25,11 +25,12 @@ START: GLOBAL
     --text-color: #142149;
     --text-color-light: #525666;
     --text-color-error: #ff4e4e;
-    --dark-text: #566075;
+    --dark-text: #3d4860;
     --light-silver: #ebecee;
   
     --main-color : #18cf58;
     --secondary-color: #2c2eff;
+    --tertiary-color: #ffd212;
     --error-color: #ff000014;
 
     --modal-bk-color: #142149bf;

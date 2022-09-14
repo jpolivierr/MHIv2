@@ -61,7 +61,16 @@ START: Article
 .columns-reverse div figure{
     grid-column-start: 1;
     grid-row-start: 1;
-}/* 
+}
+
+.columns-reverse div section{
+    padding-left: 1rem;
+}
+/* 
+=======================================================
+END: 
+=======================================================
+*//* 
 =======================================================
 START: GLOBAL
 =======================================================
@@ -88,11 +97,12 @@ START: GLOBAL
     --text-color: #142149;
     --text-color-light: #525666;
     --text-color-error: #ff4e4e;
-    --dark-text: #566075;
+    --dark-text: #3d4860;
     --light-silver: #ebecee;
   
     --main-color : #18cf58;
     --secondary-color: #2c2eff;
+    --tertiary-color: #ffd212;
     --error-color: #ff000014;
 
     --modal-bk-color: #142149bf;
@@ -238,18 +248,80 @@ START: RESPONSIVE
     .av-article-v1 div figure{
         grid-column-start: 1;
         grid-row-start: 1;
+        margin-bottom: 2rem;
     }
 
     .columns-reverse div{
         grid-template-columns: 1fr;
     }
+
+    .columns-reverse div section{
+        padding-left: 0rem;
+    }
+
+    
 }
 
 /* 
 =======================================================
 END
 =======================================================
-*//* 
+*/.sp div section h2{
+    position: relative;
+    padding-bottom: .5rem;
+    max-width: 390px;
+}
+
+.sp div section h2::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 5px;
+    background: var(--tertiary-color);
+}
+
+.sp div figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+}
+
+.sp div figure img{
+    width: 98%;
+    
+}
+
+.sp div figure img,
+.sp div figure::before,
+.sp div figure::after{
+    box-shadow: 0px 15px 40px -10px #3b476c7d
+}
+
+.sp div figure::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: var(--tertiary-color);
+    z-index: -1;
+}
+
+.sp div figure::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: var(--secondary-color);
+    z-index: -1;
+}/* 
 =======================================================
 START: UTIL
 =======================================================
@@ -257,11 +329,32 @@ START: UTIL
  li{
     list-style: none;
     padding: .3rem 1rem;
+    color: var(--dark-text);
  }
 
  a{
     text-decoration: none;
     color: inherit;
+ }
+
+ h2{
+   font-size: 1.9rem;
+   margin-bottom: 1rem;
+
+ }
+
+
+ h3{
+   color: var(--secondary-color);
+   font-weight: 600;
+   margin-bottom: .3rem;
+   font-size: 1rem;
+ }
+
+ p{
+   color: var(--dark-text);
+   margin-bottom: 1rem;
+   line-height: 1.7;
  }
 
 /* 

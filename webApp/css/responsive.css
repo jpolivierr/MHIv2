@@ -50,11 +50,18 @@ START: RESPONSIVE
     .av-article-v1 div figure{
         grid-column-start: 1;
         grid-row-start: 1;
+        margin-bottom: 2rem;
     }
 
     .columns-reverse div{
         grid-template-columns: 1fr;
     }
+
+    .columns-reverse div section{
+        padding-left: 0rem;
+    }
+
+    
 }
 
 /* 

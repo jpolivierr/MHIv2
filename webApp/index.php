@@ -7,8 +7,8 @@
     addHeader("header", "MHI");
 
      mount("Navigation","navigation", "navContent");
-     mount("Article","standard", "empowerArticle");
-     mount("Article","standard", "missionArticle");
+     mount("Article","empower", null);
+     mount("Article","mission", null);
 
 
 

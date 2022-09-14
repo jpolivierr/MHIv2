@@ -1,0 +1,56 @@
+.sp div section h2{
+    position: relative;
+    padding-bottom: .5rem;
+    max-width: 390px;
+}
+
+.sp div section h2::before{
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 40px;
+    height: 5px;
+    background: var(--tertiary-color);
+}
+
+.sp div figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1rem;
+}
+
+.sp div figure img{
+    width: 98%;
+    
+}
+
+.sp div figure img,
+.sp div figure::before,
+.sp div figure::after{
+    box-shadow: 0px 15px 40px -10px #3b476c7d
+}
+
+.sp div figure::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: var(--tertiary-color);
+    z-index: -1;
+}
+
+.sp div figure::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background: var(--secondary-color);
+    z-index: -1;
+}

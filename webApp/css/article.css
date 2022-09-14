@@ -22,3 +22,12 @@ START: Article
     grid-column-start: 1;
     grid-row-start: 1;
 }
+
+.columns-reverse div section{
+    padding-left: 1rem;
+}
+/* 
+=======================================================
+END: 
+=======================================================
+*/
