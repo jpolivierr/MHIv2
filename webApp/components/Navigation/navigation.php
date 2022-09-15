@@ -5,7 +5,7 @@
         return array(
         "logo" => "Media/images/logo.png",
         "section" => array(
-                            "class"=>"av-header-v1 border-bottom",
+                            "class"=>"av-header-v1",
                             "custom"=>""
                            ),
         "container" => array(
