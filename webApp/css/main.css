@@ -93,8 +93,14 @@ START: COLUMNS
      flex-flow: column;
     justify-content: center;
     align-items: center;
-
 }
+
+.column-3x div:nth-child(1){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 /* 
 =======================================================
 END: 
@@ -175,10 +181,19 @@ img{
 .bk-light{
     background-color: var(--light-blue);
 }
+/* padding */
 
 .av-padding-2x{
     padding: 8rem 0rem;
 }
+.av-padding-bottom-1x{
+    padding-bottom: 3rem;
+}
+.av-padding-flush-top{
+    padding-top: 0rem !important;
+}
+
+/* border */
 
 .border-bottom{
     border-bottom: 1px solid var(--light-silver);
@@ -272,12 +287,24 @@ START: RESPONSIVE
     }
 }
 
-@media (max-width: 897px){
+@media (max-width: 700px){
     /* global */
     .av-padding-2x{
         padding: 7rem 0rem !important;
     }
+  /* util */
+    h2{
+        font-size: 1.9rem !important;
+    }
+    p{
+        max-width: 100% !important;
+    }
+    /* padding */
+    .av-padding-flush-top{
+        padding-top: 0rem !important;
+    }
 
+    /* header */
     .av-header-v1{
         padding: 1.1rem 0rem;
     }
@@ -301,15 +328,15 @@ START: RESPONSIVE
         display: flex;
     }
 
-    /* util */
-    h2{
-        font-size: 1.9rem !important;
-    }
+  
 
     /* articles */
 
     .av-article-v1 {
         padding: 3rem 0rem;
+        padding: .8rem;
+        border-radius: 8px;
+        margin-bottom: .8rem;
     }
     .av-article-v1 div:nth-child(1){
         grid-template-columns: 1fr;
@@ -321,12 +348,19 @@ START: RESPONSIVE
         margin-bottom: 3rem;
     }
 
+    /* columns */
     .columns-reverse div:nth-child(1){
         grid-template-columns: 1fr;
     }
 
     .columns-reverse div:nth-child(1) section{
         padding-left: 0rem;
+    }
+
+    .column-3x div:nth-child(1){
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
     }
 
     
@@ -397,7 +431,30 @@ END
     background: var(--secondary-color);
     /* border: 15px solid var(--secondary-color); */
     z-index: -1;
-}/* 
+}
+
+.sp.column-3x div section i{
+    font-size: 1.5rem;
+    padding: .8rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.sp.column-3x div section:nth-of-type(1) i{
+    color: #FFD212;
+    background: #FFD2123D;
+}
+
+.sp.column-3x div section:nth-of-type(2) i{
+    color: #2c2eff;
+    background: #127AFF3D;
+}
+
+.sp.column-3x div section:nth-of-type(3) i{
+    color: #FF4C45;
+    background: #FF12123D;
+}
+/* 
 =======================================================
 START: UTIL
 =======================================================
@@ -425,6 +482,10 @@ START: UTIL
    font-weight: 600;
    margin-bottom: .3rem;
    font-size: 1rem;
+ }
+
+ h4{
+   margin-bottom: .3rem;
  }
 
  p{

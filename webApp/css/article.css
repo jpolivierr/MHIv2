@@ -53,8 +53,14 @@ START: COLUMNS
      flex-flow: column;
     justify-content: center;
     align-items: center;
-
 }
+
+.column-3x div:nth-child(1){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
 /* 
 =======================================================
 END: 

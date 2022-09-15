@@ -28,6 +28,10 @@ START: UTIL
    font-size: 1rem;
  }
 
+ h4{
+   margin-bottom: .3rem;
+ }
+
  p{
    color: var(--dark-text);
    margin-bottom: 1rem;

@@ -74,10 +74,19 @@ img{
 .bk-light{
     background-color: var(--light-blue);
 }
+/* padding */
 
 .av-padding-2x{
     padding: 8rem 0rem;
 }
+.av-padding-bottom-1x{
+    padding-bottom: 3rem;
+}
+.av-padding-flush-top{
+    padding-top: 0rem !important;
+}
+
+/* border */
 
 .border-bottom{
     border-bottom: 1px solid var(--light-silver);
