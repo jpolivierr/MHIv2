@@ -16,7 +16,14 @@ button{
     background-color: var(--main-color);
     color: white;
     font-weight: 600;
-    border-radius: 100px;
+    border-radius: 5px;
+}
+
+.second-btn{
+    background-color: var(--secondary-color);
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
 }
 
 /* 
@@ -100,12 +107,30 @@ START: COLUMNS
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.column-4x div:nth-child(1){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
+.column-top div:nth-child(1){
+    align-items: flex-start;
+}
 /* 
 =======================================================
 END: 
 =======================================================
-*//* 
+*/
+
+/* 
+=======================================================
+START: content
+=======================================================
+*/
+
+.content-top-vertical div section{
+    display: grid;
+    grid-template-columns: 1fr;
+}/* 
 =======================================================
 START: GLOBAL
 =======================================================
@@ -178,10 +203,34 @@ img{
     font-size: 2.3rem;
 }
 
+/* background */
+
+.bk-main{
+    background: var(--secondary-color);
+}
+
+.bk-main h1,
+.bk-main h2,
+.bk-main h3,
+.bk-main h4,
+.bk-main h5,
+.bk-main p,
+.bk-main ul li{
+    color: white;
+}
+
 .bk-light{
     background-color: var(--light-blue);
 }
 /* padding */
+
+.av-padding-mini{
+    padding: 1rem 0rem;
+}
+
+.av-padding-small{
+    padding: 3rem 0rem;
+}
 
 .av-padding-2x{
     padding: 8rem 0rem;
@@ -191,6 +240,9 @@ img{
 }
 .av-padding-flush-top{
     padding-top: 0rem !important;
+}
+.av-padding-flush-bottom{
+    padding-bottom: 0rem !important;
 }
 
 /* border */
@@ -244,6 +296,7 @@ header article nav ul{
 header article nav ul li{
     border: 2px solid transparent;
     font-weight: 400;
+    padding: .3rem 1rem;
 }
 
 .av-header-v1 menu,
@@ -328,7 +381,6 @@ START: RESPONSIVE
         display: flex;
     }
 
-  
 
     /* articles */
 
@@ -360,7 +412,12 @@ START: RESPONSIVE
     .column-3x div:nth-child(1){
         display: grid;
         grid-template-columns: 1fr;
-        row-gap: 1rem;
+        row-gap: 2rem;
+    }
+
+    .column-4x div:nth-child(1){
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
     }
 
     
@@ -454,6 +511,19 @@ END
     color: #FF4C45;
     background: #FF12123D;
 }
+
+.sp-footer div section h4{
+    margin-bottom: 1rem;
+}
+
+.sp-footer div section ul li{
+    margin-bottom: 1rem;
+}
+
+.sp form fieldset label{
+    display: none;
+}
+
 /* 
 =======================================================
 START: UTIL
@@ -461,7 +531,6 @@ START: UTIL
 */
  li{
     list-style: none;
-    padding: .3rem 1rem;
     color: var(--dark-text);
  }
 
@@ -493,6 +562,41 @@ START: UTIL
    margin-bottom: 1rem;
    line-height: 1.7;
    max-width: 400px;
+ }
+
+ form legend{
+   margin-bottom: 1rem;
+ }
+
+ form fieldset{
+   margin-bottom: 1rem;
+ }
+
+ form fieldset label{
+   margin-bottom: .5rem;
+   display: block;
+ }
+
+ form input{
+   width: 100%;
+ }
+
+ form button{
+   margin-top: .5rem;
+   width: 100%;
+ }
+
+ input{
+   border: none;
+   outline: none;
+   padding: .9rem .7rem;
+   border-radius: 5px;
+   background: var(--light-silver);
+ 
+ }
+
+ fieldset{
+   border: none;
  }
 
 /* 

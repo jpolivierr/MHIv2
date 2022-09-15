@@ -60,9 +60,27 @@ START: COLUMNS
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+.column-4x div:nth-child(1){
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
+.column-top div:nth-child(1){
+    align-items: flex-start;
+}
 /* 
 =======================================================
 END: 
 =======================================================
 */
+
+/* 
+=======================================================
+START: content
+=======================================================
+*/
+
+.content-top-vertical div section{
+    display: grid;
+    grid-template-columns: 1fr;
+}

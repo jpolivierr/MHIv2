@@ -32,6 +32,7 @@ header article nav ul{
 header article nav ul li{
     border: 2px solid transparent;
     font-weight: 400;
+    padding: .3rem 1rem;
 }
 
 .av-header-v1 menu,

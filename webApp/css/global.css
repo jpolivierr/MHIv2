@@ -71,10 +71,34 @@ img{
     font-size: 2.3rem;
 }
 
+/* background */
+
+.bk-main{
+    background: var(--secondary-color);
+}
+
+.bk-main h1,
+.bk-main h2,
+.bk-main h3,
+.bk-main h4,
+.bk-main h5,
+.bk-main p,
+.bk-main ul li{
+    color: white;
+}
+
 .bk-light{
     background-color: var(--light-blue);
 }
 /* padding */
+
+.av-padding-mini{
+    padding: 1rem 0rem;
+}
+
+.av-padding-small{
+    padding: 3rem 0rem;
+}
 
 .av-padding-2x{
     padding: 8rem 0rem;
@@ -84,6 +108,9 @@ img{
 }
 .av-padding-flush-top{
     padding-top: 0rem !important;
+}
+.av-padding-flush-bottom{
+    padding-bottom: 0rem !important;
 }
 
 /* border */

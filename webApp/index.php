@@ -12,10 +12,8 @@
      mount("Article","mission", null);
      mount("Article","pledge", null);
      mount("Article","social", null);
-     
-
-
-
+     mount("Navigation","footer", null);
+     mount("Article","copyright", null);
     ?>
 
     </body>

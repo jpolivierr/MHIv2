@@ -82,3 +82,16 @@
     color: #FF4C45;
     background: #FF12123D;
 }
+
+.sp-footer div section h4{
+    margin-bottom: 1rem;
+}
+
+.sp-footer div section ul li{
+    margin-bottom: 1rem;
+}
+
+.sp form fieldset label{
+    display: none;
+}
+

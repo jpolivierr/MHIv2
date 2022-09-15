@@ -1,20 +1,42 @@
 <?php (function(){ ob_start(); ?>
- <article class="av-article-v1 sp column-3x av-padding-2x av-padding-flush-top" >
+ <article class="av-article-v1 sp sp-footer column-4x column-top av-padding-2x av-padding-flush-bottom" >
         <div class="container">
             <section >
-                   <i class="fas fa-school"></i>
-                    <h4>Prepare The Youth</h4>
-                    <p>Our principal focus is supporting the Ecole Academie Solitarite du Nord school in Cap-Haitien. This school currently educates 150 children.</p>
+                    <h4>Contact Us</h4>
+                     <ul>
+                        <a><li>18680 NE 2nd Ave</li></a>
+                        <a><li>Miami, Fl, 33179</li></a>
+                        <a><li>info@ourmhi.org</li></a>
+                        <a><li>ourmhi.org</li></a>
+                     </ul>
             </section>
             <section >
-                    <i class="fas fa-user-graduate"></i>
-                    <h4>Provide Education</h4>
-                    <p>Our goal is to increase the numbers of children and staff and ultimately expand the curriculum to more vocational and academic pathways.</p>
+                    <h4>Navigation</h4>
+                    <ul>
+                        <a><li>Home</li></a>
+                        <a><li>About Us</li></a>
+                        <a><li>Lend a Hand</li></a>
+                        <a><li>Contact Us</li></a>
+                     </ul>
             </section>
             <section >
-                   <i class="fas fa-chalkboard-teacher"></i>
-                    <h4>Provide Resources</h4>
-                    <p>In addition of school supplies, we also want to be able to provide two meals a day for our school children, as many of them only eat once a day.</p>
+                    <h4>News Letter</h4>
+                    <form action="">
+                        <fieldset>
+                            <label>Full Name</label>
+                            <input type="text" placeholder="full Name"/>
+                        </fieldset>
+                        <fieldset>
+                            <label>Email</label>
+                            <input type="email" placeholder="Email"/>
+                        </fieldset>
+                        <button class="second-btn">Subscribe</button>
+                    </form>
+            </section>
+            <section >
+                   <figure>
+                    <img src="Media/images/logo.png"/>
+                   </figure>
             </section>
         </div>
     </article>

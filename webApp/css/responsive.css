@@ -55,7 +55,6 @@ START: RESPONSIVE
         display: flex;
     }
 
-  
 
     /* articles */
 
@@ -87,7 +86,12 @@ START: RESPONSIVE
     .column-3x div:nth-child(1){
         display: grid;
         grid-template-columns: 1fr;
-        row-gap: 1rem;
+        row-gap: 2rem;
+    }
+
+    .column-4x div:nth-child(1){
+        grid-template-columns: 1fr;
+        row-gap: 2rem;
     }
 
     
