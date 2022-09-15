@@ -17,6 +17,7 @@ button{
     color: white;
     font-weight: 600;
     border-radius: 5px;
+    box-shadow: var(--shadow-btn);
 }
 
 .second-btn{
@@ -152,6 +153,7 @@ START: GLOBAL
     --shadow : 10px 10px 50px -30px #4264889c;
     --shadow-hard: 0px 0px 79px 20px rgba(179, 182, 185, 0.356);
     --shadow-soft : 10px 0px 50px -30px #4264889c;
+    --shadow-btn: 5px 25px 20px -11px #2f90904b;
   
     --light-blue: #3e40ee08;
     --text-color: #142149;
@@ -278,6 +280,10 @@ z-index: 2;
 box-shadow: var(--shadow-soft);
 }
 
+.av-header-v1 article figure{
+    max-width: 150px;
+}
+
 .av-header-v1 article,
 header article{
     display: grid;
@@ -357,6 +363,18 @@ START: RESPONSIVE
         padding-top: 0rem !important;
     }
 
+    .av-padding-mini{
+        padding: 1rem 0rem !important;
+    }
+    
+    .av-padding-small{
+        padding: 3rem 0rem !important;
+    }
+
+    .av-padding-flush-bottom{
+        padding-bottom: 0rem !important;
+    }
+
     /* header */
     .av-header-v1{
         padding: 1.1rem 0rem;
@@ -419,6 +437,8 @@ START: RESPONSIVE
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
+
+    /* special */
 
     
 }
@@ -518,6 +538,17 @@ END
 
 .sp-footer div section ul li{
     margin-bottom: 1rem;
+}
+
+
+.sp-footer div section figure{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+
+.sp-footer div section figure img{
+    box-shadow: none;
 }
 
 .sp form fieldset label{

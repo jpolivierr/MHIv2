@@ -20,6 +20,7 @@ START: GLOBAL
     --shadow : 10px 10px 50px -30px #4264889c;
     --shadow-hard: 0px 0px 79px 20px rgba(179, 182, 185, 0.356);
     --shadow-soft : 10px 0px 50px -30px #4264889c;
+    --shadow-btn: 5px 25px 20px -11px #2f90904b;
   
     --light-blue: #3e40ee08;
     --text-color: #142149;

@@ -3,7 +3,7 @@
    if(!function_exists("navContent")){
     function navContent(){
         return array(
-        "logo" => "Media/images/logo.png",
+        "logo" => "Media/images/mhilogos.png",
         "section" => array(
                             "class"=>"av-header-v1",
                             "custom"=>""

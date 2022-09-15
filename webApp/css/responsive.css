@@ -31,6 +31,18 @@ START: RESPONSIVE
         padding-top: 0rem !important;
     }
 
+    .av-padding-mini{
+        padding: 1rem 0rem !important;
+    }
+    
+    .av-padding-small{
+        padding: 3rem 0rem !important;
+    }
+
+    .av-padding-flush-bottom{
+        padding-bottom: 0rem !important;
+    }
+
     /* header */
     .av-header-v1{
         padding: 1.1rem 0rem;
@@ -93,6 +105,8 @@ START: RESPONSIVE
         grid-template-columns: 1fr;
         row-gap: 2rem;
     }
+
+    /* special */
 
     
 }

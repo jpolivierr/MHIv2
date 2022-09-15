@@ -91,6 +91,17 @@
     margin-bottom: 1rem;
 }
 
+
+.sp-footer div section figure{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+
+.sp-footer div section figure img{
+    box-shadow: none;
+}
+
 .sp form fieldset label{
     display: none;
 }

@@ -35,7 +35,7 @@
             </section>
             <section >
                    <figure>
-                    <img src="Media/images/logo.png"/>
+                    <img src="Media/images/mhilogos.png"/>
                    </figure>
             </section>
         </div>

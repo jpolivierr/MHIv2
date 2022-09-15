@@ -17,6 +17,7 @@ button{
     color: white;
     font-weight: 600;
     border-radius: 5px;
+    box-shadow: var(--shadow-btn);
 }
 
 .second-btn{
