@@ -23,19 +23,19 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 1rem;
-    padding-bottom: 1.5rem;
+    padding: 2rem 0rem;
 }
 
 .sp div figure img{
-    width: 98%;
+    width: 90%;
     
 }
 
 .sp div figure img,
 .sp div figure::before,
 .sp div figure::after{
-    box-shadow: 0px 15px 40px -10px #3b476c46
+    border-radius: 5px;
+    box-shadow:-15px 50px 50px -30px #424c6a96
 }
 
 .sp div figure::before{

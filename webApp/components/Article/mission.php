@@ -1,5 +1,5 @@
 <?php (function(){ ob_start(); ?>
- <article class="av-article-v1 columns-reverse sp" >
+ <article class="av-article-v1 columns-reverse sp bk-light av-padding-2x border" >
         <div class="container">
             <section >
                     <h2>Our Mission</h2>

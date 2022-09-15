@@ -15,6 +15,11 @@ START: RESPONSIVE
 }
 
 @media (max-width: 897px){
+    /* global */
+    .av-padding-2x{
+        padding: 7rem 0rem !important;
+    }
+
     .av-header-v1{
         padding: 1.1rem 0rem;
     }
@@ -36,6 +41,11 @@ START: RESPONSIVE
 
     .av-header-v1 article menu{
         display: flex;
+    }
+
+    /* util */
+    h2{
+        font-size: 1.9rem !important;
     }
 
     /* articles */

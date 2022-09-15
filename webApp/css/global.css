@@ -21,7 +21,7 @@ START: GLOBAL
     --shadow-hard: 0px 0px 79px 20px rgba(179, 182, 185, 0.356);
     --shadow-soft : rgba(100, 100, 111, 0.2) 0px 7px 18px -10px;
   
-    --light-blue: #f8faff;
+    --light-blue: #3e40ee08;
     --text-color: #142149;
     --text-color-light: #525666;
     --text-color-error: #ff4e4e;
@@ -53,12 +53,8 @@ body{
 
 .container{
     width: 80%;
-    max-width: 1053px;
+    max-width: 1153px;
     margin: auto;
-}
-
-.border-bottom{
-    border-bottom: 1px solid var(--light-silver);
 }
 
 img{
@@ -68,12 +64,31 @@ img{
 .social{
     display: flex;
     column-gap: 2rem;
-    margin-bottom: 1rem
 }
 
 .social i{
     color: var(--secondary-color);
     font-size: 2.3rem;
+}
+
+.bk-light{
+    background-color: var(--light-blue);
+}
+
+.av-padding-2x{
+    padding: 8rem 0rem;
+}
+
+.border-bottom{
+    border-bottom: 1px solid var(--light-silver);
+}
+
+.border-top{
+    border-top: 1px solid var(--light-silver);
+}
+
+.border{
+    border: 1px solid var(--light-silver);
 }
 /* 
 =======================================================

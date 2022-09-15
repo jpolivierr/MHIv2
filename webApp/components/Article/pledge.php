@@ -1,5 +1,5 @@
 <?php (function(){ ob_start(); ?>
- <article class="av-article-v1 sp">
+ <article class="av-article-v1 sp av-padding-2x">
         <div class="container">
             <section >
                     <h2>Take The Pledge</h2>
