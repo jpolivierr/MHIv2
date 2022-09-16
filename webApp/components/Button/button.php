@@ -13,13 +13,13 @@
 ?>
 
 <?php (function($props) { ob_start();?>
-        <a href="<?php echo $props["link"] ?>">
+        <!-- <a href="<?php echo $props["link"] ?>"> -->
           <button 
              class="<?php echo $props["class"]?>"
              <?php echo $props["custom"]?>
           >
             <?php echo $props["label"] ?>
         </button>   
-        </a> 
+        <!-- </a>  -->
 
 <?php echo ob_get_clean(); })(mainBtnProps($props)); ?>

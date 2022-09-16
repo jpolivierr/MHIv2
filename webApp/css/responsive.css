@@ -17,7 +17,7 @@ START: RESPONSIVE
 @media (max-width: 700px){
     /* global */
     .av-padding-2x{
-        padding: 7rem 0rem !important;
+        padding: 4rem 0rem !important;
     }
   /* util */
     h2{
@@ -43,12 +43,18 @@ START: RESPONSIVE
         padding-bottom: 0rem !important;
     }
 
+    .av-padding-side-1x
+    {
+        padding-right: 4rem !important;
+        padding-left: 4rem !important;
+    }
+
     /* header */
     .av-header-v1{
         padding: 1.1rem 0rem;
     }
 
-    .av-header-v1 figure{
+    .av-header-v1 article figure{
         max-width: 90px;
     }
 
@@ -73,7 +79,6 @@ START: RESPONSIVE
     .av-article-v1 {
         padding: 3rem 0rem;
         padding: .8rem;
-        border-radius: 8px;
         margin-bottom: .8rem;
     }
     .av-article-v1 div:nth-child(1){

@@ -93,14 +93,16 @@ img{
 }
 /* padding */
 
+
+
+
+
 .av-padding-mini{
     padding: 1rem 0rem;
 }
-
 .av-padding-small{
     padding: 3rem 0rem;
 }
-
 .av-padding-2x{
     padding: 8rem 0rem;
 }
@@ -113,7 +115,10 @@ img{
 .av-padding-flush-bottom{
     padding-bottom: 0rem !important;
 }
-
+.av-padding-around-1x
+{
+    padding: 2rem;
+}
 /* border */
 
 .border-bottom{

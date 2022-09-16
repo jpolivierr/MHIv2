@@ -25,6 +25,10 @@ function addHeader(string $file, string $title){
         siteHeader($title);
      }
 
+function addFooter(string $file){
+     require_once dirname(__FILE__)."/webApp/$file.php";
+     }
+
 function constVar($value){
      if(!isset($value)){
           echo "is not set";

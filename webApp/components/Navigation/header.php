@@ -33,7 +33,7 @@
                    <?php mount("List","list","navLinks")?>
                 </nav>
                 <section>
-                    <?php mount("Button","button",["Donate","/donate","main-btn",null]) ?>
+                    <?php mount("Button","button",["Donate","","main-btn","id='donate-btn'"]) ?>
                 </section>
                 <menu>
                     <div></div>

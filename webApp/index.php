@@ -14,7 +14,6 @@
      mount("Article","social", null);
      mount("Navigation","footer", null);
      mount("Article","copyright", null);
-    ?>
 
-    </body>
-    </html>
+     addFooter("footer");
+    ?>

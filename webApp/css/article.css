@@ -55,6 +55,11 @@ START: COLUMNS
     align-items: center;
 }
 
+.column-1x div:nth-child(1){
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .column-3x div:nth-child(1){
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
