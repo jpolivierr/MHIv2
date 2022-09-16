@@ -135,6 +135,10 @@ img{
 .border{
     border: 1px solid var(--light-silver);
 }
+
+.main-shadow{
+    box-shadow: var(--shadow);
+}
 /* 
 =======================================================
 END: GLOBAL

@@ -127,6 +127,10 @@ START: RESPONSIVE
     .the-team div section figure{
         margin-bottom: 1rem !important;
     }
+
+    .volunteer div section{
+        width: 100% !important;
+    }
 }
 
 /* 

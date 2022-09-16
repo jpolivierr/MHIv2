@@ -275,6 +275,10 @@ img{
 .border{
     border: 1px solid var(--light-silver);
 }
+
+.main-shadow{
+    box-shadow: var(--shadow);
+}
 /* 
 =======================================================
 END: GLOBAL
@@ -586,6 +590,10 @@ START: RESPONSIVE
     .the-team div section figure{
         margin-bottom: 1rem !important;
     }
+
+    .volunteer div section{
+        width: 100% !important;
+    }
 }
 
 /* 
@@ -695,7 +703,7 @@ END
     box-shadow: none;
 }
 
-.sp form fieldset label{
+.sp.sp-footer form fieldset label{
     display: none;
 }
 
@@ -761,6 +769,30 @@ END
     margin-left: 1rem;
 }
 
+.volunteer div section{
+    background: white;
+    width: 650px;
+    justify-self: center;
+    border-radius: 5px;
+    padding: 3rem;
+    margin: auto;
+}
+
+.volunteer div section h2{
+    margin-bottom: 1rem;
+}
+
+.volunteer div section form legend{
+    max-width: 100%;
+}
+
+.volunteer div section form h4{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--light-silver);
+}
+
 
 /* 
 =======================================================
@@ -795,7 +827,7 @@ START: UTIL
    margin-bottom: .3rem;
  }
 
- p{
+ p,legend{
    color: var(--dark-text);
    margin-bottom: 1rem;
    line-height: 1.7;
@@ -803,15 +835,15 @@ START: UTIL
  }
 
  form legend{
-   margin-bottom: 1rem;
+   margin-bottom: 2rem;
  }
 
  form fieldset{
-   margin-bottom: 1rem;
+   margin-bottom: 1.5rem;
  }
 
  form fieldset label{
-   margin-bottom: .5rem;
+   margin-bottom: .3rem;
    display: block;
  }
 
@@ -827,7 +859,7 @@ START: UTIL
  input{
    border: none;
    outline: none;
-   padding: .9rem .7rem;
+   padding: 1rem .7rem;
    border-radius: 5px;
    background: var(--light-silver);
  
