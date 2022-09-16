@@ -243,6 +243,9 @@ img{
 .av-padding-small{
     padding: 3rem 0rem;
 }
+.av-padding-1x{
+    padding: 4rem 0rem;
+}
 .av-padding-2x{
     padding: 8rem 0rem;
 }
@@ -734,6 +737,28 @@ END
 
 .the-team div section h3{
     font-size: 1.3rem;
+}
+
+.faq div section p{
+    max-width: 1000px;
+}
+
+.faq div section h2{
+    margin-bottom: 3rem;
+}
+
+.faq div section h4{
+    font-size: 1.5rem;
+}
+
+.faq div section p,
+.faq div section ul{
+    margin-bottom: 4rem;
+}
+
+.faq div section ul li{
+    list-style: circle;
+    margin-left: 1rem;
 }
 
 
