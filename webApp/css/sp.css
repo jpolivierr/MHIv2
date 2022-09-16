@@ -18,7 +18,7 @@
     margin: auto;
 }
 
-.sp div figure{
+.sp.design div figure{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,19 +26,18 @@
     padding: 2rem 0rem;
 }
 
-.sp div figure img{
+.sp.design div figure img{
     width: 90%;
-    
 }
 
-.sp div figure img,
-.sp div figure::before,
-.sp div figure::after{
+.sp.design div figure img,
+.sp.design div figure::before,
+.sp.design div figure::after{
     border-radius: 5px;
     box-shadow:-15px 50px 50px -30px #4264889c
 }
 
-.sp div figure::before{
+.sp.design div figure::before{
     position: absolute;
     content: "";
     top: 0;
@@ -49,7 +48,7 @@
     z-index: -1;
 }
 
-.sp div figure::after{
+.sp.design div figure::after{
     position: absolute;
     content: "";
     bottom: 0;
@@ -106,5 +105,44 @@
     display: none;
 }
 
+.who-we-are div{
+    grid-template-columns: 1.3fr 1fr !important;
+}
+
+.who-we-are div section p{
+    max-width: 500px;
+}
+
+.the-team div:nth-child(1){
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.the-team section:nth-child(2),
+.the-team section:nth-child(1)
+{
+    grid-column: 1 / 3;
+    justify-self: center;
+}
+
+.the-team div section figure{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.the-team div section h5{
+    font-weight: 400;
+    color: inherit;
+    margin-top: 1rem;
+    color: var(--main-color);
+}
+
+.the-team div section h3{
+    font-size: 1.3rem;
+}
 
 

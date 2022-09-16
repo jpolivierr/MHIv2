@@ -1,5 +1,5 @@
 <?php (function(){ ob_start(); ?>
- <article class="av-article-v1 sp av-padding-2x">
+ <article class="av-article-v1 sp av-padding-2x design">
         <div class="container">
             <section >
                     <h2>Empower With Education</h2>

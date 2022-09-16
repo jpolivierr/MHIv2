@@ -88,4 +88,6 @@ START: content
 .content-top-vertical div section{
     display: grid;
     grid-template-columns: 1fr;
+    justify-self: center;
+    text-align: center;
 }

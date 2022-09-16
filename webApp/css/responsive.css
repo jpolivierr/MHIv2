@@ -82,7 +82,7 @@ START: RESPONSIVE
         margin-bottom: .8rem;
     }
     .av-article-v1 div:nth-child(1){
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
     }
 
     .av-article-v1 div:nth-child(1) figure{
@@ -112,8 +112,21 @@ START: RESPONSIVE
     }
 
     /* special */
+    .the-team div:nth-child(1){
+        grid-template-columns: 1fr !important;
+        gap: 2rem;
+    }
 
-    
+    .the-team section:nth-child(2),
+    .the-team section:nth-child(1)
+    {
+        grid-column: 1 !important;
+        justify-self: center;
+    }
+
+    .the-team div section figure{
+        margin-bottom: 1rem !important;
+    }
 }
 
 /* 
