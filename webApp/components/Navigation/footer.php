@@ -36,7 +36,10 @@
             </section>
             <section >
                    <figure>
-                    <img src="Media/images/mhilogos.png"/>
+                    <a href="/">
+                        <img src="Media/images/mhilogos.png"/>
+                    </a>
+                     
                    </figure>
             </section>
         </div>

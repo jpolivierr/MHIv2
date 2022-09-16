@@ -27,13 +27,15 @@
                   <?php echo $props["container"]["custom"] ?>
                   >
                 <figure>
-                    <img src="<?php echo $props["logo"] ?>" ?>
+                    <a href="/">
+                        <img src="<?php echo $props["logo"] ?>" ?>
+                    </a>
                 </figure>
                 <nav>
                    <?php mount("List","list","navLinks")?>
                 </nav>
                 <section>
-                    <?php mount("Button","button",["Donate","","main-btn","id='donate-btn'"]) ?>
+                    <?php mount("Button","button",["Donate","https://interland3.donorperfect.net/weblink/weblink.aspx?name=E355232&id=2","main-btn","id='donate-btn'"]) ?>
                 </section>
                 <menu>
                     <div></div>

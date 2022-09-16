@@ -11,10 +11,11 @@
             <section >
                     <h4>Navigation</h4>
                     <ul>
-                        <a><li>Home</li></a>
-                        <a><li>About Us</li></a>
-                        <a><li>Lend a Hand</li></a>
-                        <a><li>Contact Us</li></a>
+                    <a href="/"><li>Home</li></a>
+                        <a href="/about"><li>About Us</li></a>
+                        <a href="/faq"><li>FAQ</li></a>
+                        <a href="/volunteer"><li>Volunteer</li></a>
+                        <a href="/contact"><li>Contact Us</li></a>
                      </ul>
             </section>
             <section >

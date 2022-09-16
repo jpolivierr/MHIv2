@@ -5,7 +5,7 @@
                     <h2>Our Mission</h2>
                     <h3>To educate and inspire</h3>
                     <p>Our mission is to provide a free high quality academic and vocational education for Haitian children to empower them to attain self-sufficiency and to become leaders in their communities. Show your support by contributing to the cause.</p>
-                    <?php mount("Button","button",["Donate","/donate","main-btn",null])?>
+                    <?php mount("Button","button",["Donate","https://interland3.donorperfect.net/weblink/weblink.aspx?name=E355232&id=2","main-btn",null])?>
                 </section>
                 <figure >
                    <img src="Media/images/mhikid.png" ?>
